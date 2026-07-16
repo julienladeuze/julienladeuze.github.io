@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    /* Vertically aligns the title and navigation */
+    padding:1px 60px 1px 60px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+h1{
+
+    font-size:3rem;
+
+    margin-bottom:0px;
+}
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.hero-text{
+
+    flex:1;
+}
+
+nav{
+
+    display:flex;
+
+    justify-content:right;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+}
+
+
+body{
+
+    font-family:"Forum", serif;
+    
+    font-weight: 500;
+    
+    font-style: normal;
+
+    line-height: 1.5;
+
+    background:#fff8f8;
+
+    color:#222;
+}
+
+
+
+blockquote{
+
+    position:relative;
+
+    font-style:italic;
+
+    font-size:1.2rem;
+
+    color:#555;
+
+    padding-left:25px;
+
+    max-width:1000px;
+
+}
+
+
+
+
+nav a{
+
+    text-decoration:none;
+
+    color:#444;
+
+    font-weight:600;
+
+    transition:.2s;
+}
+
+main{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    padding:50px 25px;
+}
+
+section{
+
+    margin-bottom:40px;
+}
+
+h2{
+
+    margin-bottom:20px;
+
+    font-size:2rem;
+
+    color:#0b63ce;
+}
+
+a {
+    color:#0b63ce;
+    text-decoration-line: underline;
+}
+
+p{
+
+    margin-bottom:18px;
+}
+
+ul{
+
+    padding-left:20px;
+}
+
+.paper{
+
+    border-left:4px solid #0b63ce;
+
+    padding-left:20px;
+
+    margin-top:20px;
+}
+
+.paper h3{
+
+    margin-bottom:10px;
+}
+
+
+
+footer{
+
+    text-align:right;
+
+    padding:40px;
+
+    border-top:1px solid #ddd;
+
+    color:#777;
+}
+
+
+.about-text{
+
+    flex:1;
+
+    text-align:justify;
+
+}
+
+.about-figure{
+
+    width:260px;
+
+
+    text-align:right;
+
+    flex-shrink:0;
+
+}
+
+.flex-container {
+            display: flex;
+            gap: 10px;
+}
+
+.about-figure img{
+
+    width:100%;
+    border-radius:10px;
+
+    border:1px solid #ddd;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+.about-figure figcaption{
+
+    margin-top:10px;
+
+    font-size:.9rem;
+
+    color:#666;
+
+    line-height:1.4;
+
+}
+
+.about-figure figcaption strong{
+
+    font-weight:600;
+
+}
